@@ -1,0 +1,86 @@
+solid inpection_head
+        facet normal 0.000000 0.000000 1.000000
+                outer loop
+                        vertex -280.549988 190.050003 80.500000
+                        vertex -280.549988 -333.450012 80.500000
+						vertex 0.000000 190.050003 80.500000
+                endloop
+        endfacet
+        facet normal 0.000000 -0.000000 1.000000
+                outer loop
+                        vertex 0.000000 190.050003 80.500000
+                        vertex -280.549988 -333.450012 80.500000
+                        vertex 0.000000 -333.450012 80.500000
+                endloop
+        endfacet
+        facet normal 0.000000 0.000000 -1.000000
+                outer loop
+                        vertex 0.000000 190.050003 -80.500000
+                        vertex 0.000000 -333.450012 -80.500000
+                        vertex -280.549988 -333.450012 -80.500000
+                endloop
+        endfacet
+        facet normal 0.000000 0.000000 -1.000000
+                outer loop
+                        vertex 0.000000 190.050003 -80.500000
+                        vertex -280.549988 -333.450012 -80.500000
+                        vertex -280.549988 190.050003 -80.500000
+                endloop
+        endfacet
+        facet normal -1.000000 0.000000 0.000000
+                outer loop
+                        vertex -280.549988 190.050003 80.500000
+                        vertex -280.549988 -333.450012 -80.500000
+                        vertex -280.549988 -333.450012 80.500000
+                endloop
+        endfacet
+        facet normal -1.000000 0.000000 0.000000
+                outer loop
+                        vertex -280.549988 190.050003 80.500000
+                        vertex -280.549988 190.050003 -80.500000
+                        vertex -280.549988 -333.450012 -80.500000
+                endloop
+        endfacet
+        facet normal 1.000000 0.000000 0.000000
+                outer loop
+                        vertex 0.000000 190.050003 80.500000
+                        vertex 0.000000 -333.450012 80.500000
+                        vertex 0.000000 -333.450012 -80.500000
+                endloop
+        endfacet
+        facet normal 1.000000 0.000000 -0.000000
+                outer loop
+                        vertex 0.000000 190.050003 80.500000
+                        vertex 0.000000 -333.450012 -80.500000
+                        vertex 0.000000 190.050003 -80.500000
+                endloop
+        endfacet
+        facet normal -0.000000 1.000000 0.000000
+                outer loop
+                        vertex 0.000000 190.050003 80.500000
+                        vertex -280.549988 190.050003 -80.500000
+                        vertex -280.549988 190.050003 80.500000
+                endloop
+        endfacet
+        facet normal 0.000000 1.000000 0.000000
+                outer loop
+                        vertex 0.000000 190.050003 80.500000
+                        vertex 0.000000 190.050003 -80.500000
+                        vertex -280.549988 190.050003 -80.500000
+                endloop
+        endfacet
+        facet normal 0.000000 -1.000000 0.000000
+                outer loop
+                        vertex 0.000000 -333.450012 80.500000
+                        vertex -280.549988 -333.450012 80.500000
+                        vertex -280.549988 -333.450012 -80.500000
+                endloop
+        endfacet
+        facet normal 0.000000 -1.000000 0.000000
+                outer loop
+                        vertex 0.000000 -333.450012 80.500000
+                        vertex -280.549988 -333.450012 -80.500000
+                        vertex 0.000000 -333.450012 -80.500000
+                endloop
+        endfacet
+endsolid

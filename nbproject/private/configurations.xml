@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>3</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_signals>
+        </gdb_signals>
+        <gdb_options>
+          <DebugOptions>
+            <option name="gdb_detach_on_fork" value="off"/>
+            <option name="debug_command"
+                    value="dist\Debug\Cygwin-Windows\fibr3d_app.exe -print OBJ_files\Candelabro_partes.obj"/>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -print "STL_files\\case10.stl"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -print -no_opt "STL_files\\case5_2.stl"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -print -no_opt "STL_files\\object_artigo.stl"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -print "STL_files\\case6.stl"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -print "STL_files\\conduta.stl"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -print STL_files\conduta.stl</runcommandpicklistitem>
+          <runcommandpicklistitem>dist\Debug\Cygwin-Windows\fibr3d_app.exe -print STL_files\Conduta.stl</runcommandpicklistitem>
+          <runcommandpicklistitem>dist\Debug\Cygwin-Windows\fibr3d_app.exe -print OBJ_files\Condelabro_parts.obj</runcommandpicklistitem>
+          <runcommandpicklistitem>dist\Debug\Cygwin-Windows\fibr3d_app.exe -print OBJ_files\Condelabro_partes.obj</runcommandpicklistitem>
+          <runcommandpicklistitem>dist\Debug\Cygwin-Windows\fibr3d_app.exe -print OBJ_files\Candelabro_partes.obj</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>dist\Debug\Cygwin-Windows\fibr3d_app.exe -print OBJ_files\Candelabro_partes.obj</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>3</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -inspection -no_opt -MIP -CombF -NNH -NNGH 2 -NNSH 5 STL_files\case1.stl</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -inspection -no_opt -MIP -CombF -NNH -NNGH 2 -NNSH 1 STL_files\case1.stl</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -inspection -no_opt -MIP -CombF -NNH -NNGH 2 -NNSH 1 -ins_sampling_distance 45 STL_files\case2.stl</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -inspection -no_opt -CombF -NNH -NNGH 2 -NNSH 1 -ins_sampling_distance 45 STL_files\case2.stl</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -inspection -no_opt -NNH -NNGH 2 -NNSH 1 -ins_sampling_distance 45 STL_files\case2.stl</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -inspection -no_opt -NNH -NNSH 1 -ins_sampling_distance 45 STL_files\case2.stl</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -inspection -no_opt -NNSH 1 -MIP -ins_sampling_distance 45 STL_files\case2.stl</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -inspection -no_opt -NNSH 1 -ins_sampling_distance 45 STL_files\case2.stl</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -inspection -no_opt -MIP STL_files\case1.stl</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -parts</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" -parts</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

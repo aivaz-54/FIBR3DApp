@@ -1,0 +1,3 @@
+cmake -D CMAKE_CXX_COMPILER=/usr/bin/g++.exe -D CMAKE_C_COMPILER=/usr/bin/gcc.exe .
+
+copiar os ficheiros de tmp/include
